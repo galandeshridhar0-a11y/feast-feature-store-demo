@@ -1,4 +1,4 @@
-# Feast Feature Store Demo
+# Feast Feature Store
 
 This repository contains notebooks for learning and experimenting with Feast-based feature stores and MLflow model tracking. The notebooks demonstrate feature engineering, feature retrieval, and model training workflows using sample data.
 
@@ -37,7 +37,7 @@ http://127.0.0.1:5000
 ## Notes
 
 - `mlruns/` and `*.db` files are generated at runtime and should be ignored by version control.
-- The notebooks are the primary source files for demo exercises.
+- The notebooks are the primary source files for exercises.
 - `.venv/` and `.ipynb_checkpoints/` are also ignored by `.gitignore`.
 
 ## Push to GitHub
@@ -45,7 +45,7 @@ http://127.0.0.1:5000
 ```bash
 git init
 git add .
-git commit -m "Add Feast feature store demo notebooks"
+git commit -m "Add Feast feature store notebooks"
 git branch -M main
 git remote add origin https://github.com/galandeshridhar0-a11y/feast-feature-store-demo.git
 git push -u origin main
