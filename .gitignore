@@ -40,3 +40,6 @@ Thumbs.db
 # Project extras and local demo artifacts
 Other/
 Other/**
+
+feature_repo/**
+feature_repo/
