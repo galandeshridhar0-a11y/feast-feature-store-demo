@@ -10,6 +10,26 @@ This repository contains notebooks for learning and experimenting with Feast-bas
 - `requirements.txt`: Python dependencies for the notebooks
 - `.gitignore`: ignore rules for virtual environments, notebook checkpoints, and generated artifacts
 
+## What is Feast?
+
+Feast is an open-source feature store that simplifies building and operating feature pipelines for machine learning. In this project, Feast is used to:
+
+- define and store reusable features
+- keep feature values consistent between training and inference
+- manage feature schemas and entity relationships
+
+The notebooks show how to define Feast entities and features, materialize feature data, and retrieve feature values for model training.
+
+## What is MLflow?
+
+MLflow is an open-source platform for managing the machine learning lifecycle. It helps you:
+
+- track experiments, parameters, and metrics
+- log models and artifacts
+- compare runs across different experiments
+
+The notebooks in this repo log training runs to MLflow so you can inspect model metrics and artifacts while working with Feast-powered feature workflows.
+
 ## Setup on Windows
 
 From the repository root:
