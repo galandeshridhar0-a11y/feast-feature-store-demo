@@ -1,0 +1,22 @@
+# Requirements for: Feast_MLflow_Iris_Feature_Store.ipynb
+#
+# Install with:
+#   pip install -r requirements.txt
+
+# feast==0.64.0
+# mlflow==3.14.0
+# scikit-learn==1.8.0
+# pandas==2.3.3
+# numpy<2
+# jsonschema<5
+# isoduration==20.11.0
+feast==0.64.0
+scikit-learn==1.8.0
+pandas==2.3.3
+numpy==2.4.4
+jsonschema<5
+isoduration==20.11.0
+
+# Notebook execution (optional -- only needed to re-run/re-export from the
+# uv pip install -r requirements.txtjupy
+
